@@ -8,11 +8,11 @@ Repository URL: <https://github.com/anaygoyal09/3D-Fusion-Models>
 
 | Model | File | Approx. dimensions | Triangles | Notes |
 | --- | --- | ---: | ---: | --- |
-| 2x4 Toy Block | `2x4 Toy Block.stl` | 31.80 x 15.80 x 11.30 | 11,474 | A toy brick-style block model with raised studs. |
-| Glass Soda Bottle | `Day 2 Glass Soda Bottle.stl` | 60.00 x 59.98 x 240.00 | 28,334 | A simple bottle form made as an early Fusion modeling exercise. |
-| Paper Clip | `Day 3 PaperClip.stl` | 8.25 x 33.99 x 0.75 | 6,432 | A thin paper clip model focused on curves and small profile geometry. |
-| Complex Glass Bottle | `Day 4 Complex Glass Bottle.stl` | 99.48 x 78.27 x 253.00 | 24,530 | A more detailed bottle model with a wider body and more complex shape. |
-| Ice Cube Tray | `IceCubeTray.stl` | 310.00 x 114.00 x 32.00 | 34,984 | A larger tray-style model with repeated cavities. |
+| 2x4 Toy Block | `models/2x4 Toy Block.stl` | 31.80 x 15.80 x 11.30 | 11,474 | A toy brick-style block model with raised studs. |
+| Glass Soda Bottle | `models/Day 2 Glass Soda Bottle.stl` | 60.00 x 59.98 x 240.00 | 28,334 | A simple bottle form made as an early Fusion modeling exercise. |
+| Paper Clip | `models/Day 3 PaperClip.stl` | 8.25 x 33.99 x 0.75 | 6,432 | A thin paper clip model focused on curves and small profile geometry. |
+| Complex Glass Bottle | `models/Day 4 Complex Glass Bottle.stl` | 99.48 x 78.27 x 253.00 | 24,530 | A more detailed bottle model with a wider body and more complex shape. |
+| Ice Cube Tray | `models/IceCubeTray.stl` | 310.00 x 114.00 x 32.00 | 34,984 | A larger tray-style model with repeated cavities. |
 
 Dimensions are taken from the exported STL bounding boxes and are likely in millimeters if exported from Fusion using the default metric workflow.
 
@@ -49,11 +49,12 @@ You can preview the STL files with any common 3D viewer or slicer, including:
 
 ```text
 .
-├── 2x4 Toy Block.stl
-├── Day 2 Glass Soda Bottle.stl
-├── Day 3 PaperClip.stl
-├── Day 4 Complex Glass Bottle.stl
-├── IceCubeTray.stl
+├── models
+│   ├── 2x4 Toy Block.stl
+│   ├── Day 2 Glass Soda Bottle.stl
+│   ├── Day 3 PaperClip.stl
+│   ├── Day 4 Complex Glass Bottle.stl
+│   └── IceCubeTray.stl
 └── README.md
 ```
 
@@ -72,4 +73,3 @@ The models are organized as standalone STL exports so they can be downloaded and
 ## License
 
 No license file is currently included. Until a license is added, assume the models are shared for viewing and personal reference only. Add a license if you want others to know exactly how they may use, remix, or print the files.
-
