@@ -18,7 +18,7 @@ Repository URL: <https://github.com/anaygoyal09/3D-Fusion-Models>
 | Ice Cube Tray | `models/IceCubeTray.stl` | A larger tray-style model with repeated cavities. |
 | Light Bulb | `models/LightBulb.stl`, `models/LightBulb.3mf` | A decorative incandescent-style light bulb with a rounded body and base. |
 | Saturn V Rocket | `models/Saturn V Rocket.stl`, `models/Saturn V Rocket.3mf` | A rocket model available as a raw STL export and a 3MF project/export. |
-| SnowFlake | `models/SnowFlake.stl`, `models/SnowFlake.3mf` | A decorative snowflake model with intricate radial symmetry. |
+| SnowFlake | `models/SnowFlake.stl`, `models/SnowFlake.3mf` | A detailed decorative snowflake ornament with six-fold radial symmetry. Great as a holiday decoration, tree ornament, or coaster. |
 | Starship | `models/Starship.stl`, `models/Starship.3mf` | A tall spacecraft model available in both STL and 3MF formats. |
 | Vase | `models/vase.stl` | A vase model showcasing revolve and surface workflows. |
 
@@ -53,6 +53,26 @@ You can preview the STL and 3MF files with common 3D viewers or slicers, includi
 - For tall rocket models, verify the imported height and consider splitting the print if it exceeds your printer's build volume.
 - For larger models like the ice cube tray, confirm the model fits your printer bed before slicing.
 - These files may need orientation, scaling, or mesh repair depending on the target printer and slicer.
+
+## SnowFlake — Printables Summary
+
+**Title:** Decorative Snowflake Ornament
+
+**Summary:**
+A 3D-printable snowflake ornament designed in Autodesk Fusion with six-fold radial symmetry and detailed branching arms. Perfect for holiday decorations, Christmas tree ornaments, window hangings, or as a flat coaster/trivet. The design prints flat on the bed with no supports needed.
+
+**Description:**
+This snowflake features intricate geometric branches radiating from a central hub. Each arm mirrors the classic ice-crystal pattern with secondary offshoots for visual detail. The model is thin enough to print quickly while maintaining structural integrity.
+
+**Suggested Print Settings:**
+- Layer height: 0.2 mm (or 0.12 mm for sharper detail)
+- Infill: 100% (model is thin enough that infill pattern doesn't matter much)
+- Supports: None required — prints flat
+- Bed adhesion: Brim recommended due to thin geometry and small contact points
+- Material: PLA or PETG; translucent or white filament looks great
+- Scale: Print at 100% for ornament size, or scale up 150–200% for a coaster/wall decoration
+
+**Tags:** snowflake, ornament, decoration, holiday, Christmas, winter, coaster, flat-print, no-supports
 
 ## Repository Structure
 
