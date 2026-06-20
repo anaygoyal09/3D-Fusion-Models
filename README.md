@@ -32,6 +32,23 @@ Each model is provided as one or more of the following: an editable Fusion sourc
 | USB Holder | `.f3d`, `.stl` | A holder/organizer for USB drives. A smaller variant is included as `UsbHolderSmall.stl`. |
 | Vase | `.f3d`, `.stl` | A vase model showcasing revolve and surface workflows. Includes a styled variant (`VaseStyled.stl`). |
 
+## Printed Model Photos
+
+These photos show printed examples matched to the model files in this repository.
+
+| Model | Photo | Files | Visual match |
+| --- | --- | --- | --- |
+| 2x4 Toy Block | <img src="docs/images/2x4-toy-block-printed.png" alt="Printed blue 2x4 toy block" width="220"> | [`2x4 Toy Block.f3d`](models/2x4%20Toy%20Block.f3d)<br>[`2x4 Toy Block.stl`](models/2x4%20Toy%20Block.stl) | Blue rectangular brick with two rows of raised studs. |
+| Complex Glass Bottle | <img src="docs/images/complex-glass-bottle-printed.png" alt="Printed black complex glass bottle" width="220"> | [`Complex Glass Bottle.f3d`](models/Complex%20Glass%20Bottle.f3d)<br>[`Complex Glass Bottle.stl`](models/Complex%20Glass%20Bottle.stl) | Black bottle with a squared body, rounded edges, narrow neck, and threaded lip. |
+| Door Stop | <img src="docs/images/door-stop-printed.png" alt="Printed black door stop" width="220"> | [`DoorStop.f3d`](models/DoorStop.f3d)<br>[`DoorStop.stl`](models/DoorStop.stl)<br>[`DoorStop.step`](models/DoorStop.step) | Black wedge-shaped stop with ribbed sides and cutout geometry. |
+| Glass Soda Bottle | <img src="docs/images/glass-soda-bottle-printed.png" alt="Printed black glass soda bottle" width="220"> | [`Glass Soda Bottle.f3d`](models/Glass%20Soda%20Bottle.f3d)<br>[`Glass Soda Bottle.stl`](models/Glass%20Soda%20Bottle.stl) | Tall black bottle with a round body, tapered shoulder, and small threaded opening. |
+| Hex Nut | <img src="docs/images/hex-nut-printed.png" alt="Printed black hex nut" width="220"> | [`Hex Nut.f3d`](models/Hex%20Nut.f3d)<br>[`Hex Nut.stl`](models/Hex%20Nut.stl)<br>[`Hex Nut.3mf`](models/Hex%20Nut.3mf) | Black six-sided nut with a circular threaded center hole. |
+| Ice Cube Tray | <img src="docs/images/ice-cube-tray-printed.png" alt="Printed blue ice cube tray" width="220"> | [`IceCubeTray.f3d`](models/IceCubeTray.f3d)<br>[`IceCubeTray.stl`](models/IceCubeTray.stl) | Blue tray with repeated square cavities in a long grid. |
+| Saturn V Rocket | <img src="docs/images/saturn-v-rocket-printed.png" alt="Printed black Saturn V rocket" width="220"> | [`Saturn V Rocket.f3d`](models/Saturn%20V%20Rocket.f3d)<br>[`Saturn V Rocket.stl`](models/Saturn%20V%20Rocket.stl)<br>[`Saturn V Rocket.3mf`](models/Saturn%20V%20Rocket.3mf) | Tall black rocket with stacked cylindrical sections, fins, and a pointed top. |
+| SnowFlake | <img src="docs/images/snowflake-printed.png" alt="Printed white snowflake" width="220"> | [`SnowFlake.f3d`](models/SnowFlake.f3d)<br>[`SnowFlake.stl`](models/SnowFlake.stl)<br>[`SnowFlake.3mf`](models/SnowFlake.3mf) | White flat snowflake with six branching arms. |
+| Star | <img src="docs/images/star-printed.jpg" alt="Printed red star" width="220"> | [`Star.f3d`](models/Star.f3d)<br>[`Star.stl`](models/Star.stl) | Red flat five-point star with rounded points. |
+| USB Holder | <img src="docs/images/usb-holder-printed.png" alt="Printed black USB holders holding white USB cables" width="220"> | [`UsbHolder.f3d`](models/UsbHolder.f3d)<br>[`UsbHolder.stl`](models/UsbHolder.stl)<br>[`UsbHolderSmall.stl`](models/UsbHolderSmall.stl) | Black rounded holders sized to organize USB connectors. |
+
 Files are modeled in millimeters. Check dimensions in your slicer before printing.
 
 ## File Formats
@@ -95,6 +112,18 @@ This snowflake features intricate geometric branches radiating from a central hu
 
 ```text
 .
+├── docs
+│   └── images
+│       ├── 2x4-toy-block-printed.png
+│       ├── complex-glass-bottle-printed.png
+│       ├── door-stop-printed.png
+│       ├── glass-soda-bottle-printed.png
+│       ├── hex-nut-printed.png
+│       ├── ice-cube-tray-printed.png
+│       ├── saturn-v-rocket-printed.png
+│       ├── snowflake-printed.png
+│       ├── star-printed.jpg
+│       └── usb-holder-printed.png
 ├── models
 │   ├── 2x4 Toy Block.f3d / .stl
 │   ├── Airplane.f3d / .stl
