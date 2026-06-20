@@ -4,6 +4,8 @@ A collection of original 3D models designed in Autodesk Fusion and exported for 
 
 Repository URL: <https://github.com/anaygoyal09/3D-Fusion-Models>
 
+Printables models: <https://www.printables.com/@AnayMakes_519118/models>
+
 ## What's Included
 
 Each model is provided as one or more of the following: an editable Fusion source file (`.f3d`), a printable mesh (`.stl`), a slicer project/export (`.3mf`), and/or a neutral CAD file (`.step`).
