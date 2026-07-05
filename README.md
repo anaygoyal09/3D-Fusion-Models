@@ -13,6 +13,7 @@ Each model is provided as one or more of the following: an editable Fusion sourc
 | Model | Files | Notes |
 | --- | --- | --- |
 | 2x4 Toy Block | `.f3d`, `.stl` | A toy brick-style block model with raised studs. |
+| A330-300 | `.f3d`, `.stl`, `.3mf` | A detailed Airbus A330-300 airliner model with swept wings, winglets, twin engines, tail surfaces, and both colored and non-colored exports. |
 | Airplane | `.f3d`, `.stl` | A simple airplane model with fuselage, wings, and tail. |
 | Complex Glass Bottle | `.f3d`, `.stl` | A detailed bottle model with a wider body and complex shape. |
 | Day 3 PaperClip | `.f3d`, `.stl` | A thin paper clip model focused on curves and small profile geometry. |
@@ -41,6 +42,7 @@ These photos show printed examples matched to the model files in this repository
 | Model | Photo | Files | Visual match |
 | --- | --- | --- | --- |
 | 2x4 Toy Block | <img src="docs/images/2x4-toy-block-printed.png" alt="Printed blue 2x4 toy block" width="220"> | [`2x4 Toy Block.f3d`](models/2x4%20Toy%20Block.f3d)<br>[`2x4 Toy Block.stl`](models/2x4%20Toy%20Block.stl) | Blue rectangular brick with two rows of raised studs. |
+| A330-300 | <img src="docs/images/a330-300-birdseye.png" alt="Printed black A330-300 model from above" width="220"><br><img src="docs/images/a330-300-front-top.jpeg" alt="Printed black A330-300 model viewed from the front top" width="220"><br><img src="docs/images/a330-300-nose-front.jpeg" alt="Printed black A330-300 model viewed from the nose" width="220"> | [`A330-300 Fusion File.f3d`](models/A330-300/A330-300%20Fusion%20File.f3d)<br>[`A330-300.stl`](models/A330-300/NonColored/A330-300.stl)<br>[`A330-300 Colored No Split.3mf`](models/A330-300/Colored/A330-300%20Colored%20No%20Split.3mf) | Black wide-body airliner with long swept wings, upturned winglets, twin under-wing engines, and detailed nose, fuselage, and tail surfaces. |
 | Complex Glass Bottle | <img src="docs/images/complex-glass-bottle-printed.png" alt="Printed black complex glass bottle" width="220"> | [`Complex Glass Bottle.f3d`](models/Complex%20Glass%20Bottle.f3d)<br>[`Complex Glass Bottle.stl`](models/Complex%20Glass%20Bottle.stl) | Black bottle with a squared body, rounded edges, narrow neck, and threaded lip. |
 | Door Stop | <img src="docs/images/door-stop-printed.png" alt="Printed black door stop" width="220"> | [`DoorStop.f3d`](models/DoorStop.f3d)<br>[`DoorStop.stl`](models/DoorStop.stl)<br>[`DoorStop.step`](models/DoorStop.step) | Black wedge-shaped stop with ribbed sides and cutout geometry. |
 | Glass Soda Bottle | <img src="docs/images/glass-soda-bottle-printed.png" alt="Printed black glass soda bottle" width="220"> | [`Glass Soda Bottle.f3d`](models/Glass%20Soda%20Bottle.f3d)<br>[`Glass Soda Bottle.stl`](models/Glass%20Soda%20Bottle.stl) | Tall black bottle with a round body, tapered shoulder, and small threaded opening. |
@@ -117,6 +119,9 @@ This snowflake features intricate geometric branches radiating from a central hu
 ├── docs
 │   └── images
 │       ├── 2x4-toy-block-printed.png
+│       ├── a330-300-birdseye.png
+│       ├── a330-300-front-top.jpeg
+│       ├── a330-300-nose-front.jpeg
 │       ├── complex-glass-bottle-printed.png
 │       ├── door-stop-printed.png
 │       ├── glass-soda-bottle-printed.png
@@ -128,6 +133,12 @@ This snowflake features intricate geometric branches radiating from a central hu
 │       └── usb-holder-printed.png
 ├── models
 │   ├── 2x4 Toy Block.f3d / .stl
+│   ├── A330-300
+│   │   ├── A330-300 Fusion File.f3d
+│   │   ├── Colored
+│   │   │   └── A330-300 Colored No Split.3mf
+│   │   └── NonColored
+│   │       └── A330-300.stl
 │   ├── Airplane.f3d / .stl
 │   ├── Complex Glass Bottle.f3d / .stl
 │   ├── Day 3 PaperClip.f3d / .stl
