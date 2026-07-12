@@ -15,6 +15,7 @@ Each model is provided as one or more of the following: an editable Fusion sourc
 | 2x4 Toy Block | `.f3d`, `.stl` | A toy brick-style block model with raised studs. |
 | A330-300 | `.f3d`, `.stl`, `.3mf` | A detailed Airbus A330-300 airliner model with swept wings, winglets, twin engines, tail surfaces, and both colored and non-colored exports. |
 | Airplane | `.f3d`, `.stl` | A simple airplane model with fuselage, wings, and tail. |
+| Boomerang | `.f3d`, `.stl` | A curved boomerang-style model with rounded arms and smooth profile geometry. |
 | Complex Glass Bottle | `.f3d`, `.stl` | A detailed bottle model with a wider body and complex shape. |
 | Day 3 PaperClip | `.f3d`, `.stl` | A thin paper clip model focused on curves and small profile geometry. |
 | Dog Bowl | `.f3d`, `.stl`, `.3mf` | A pet bowl model. Includes a multi-part version (`DogBowl1Part.3mf`) and separate metal and rubber parts (`DogBowlMetalPart.stl`, `DogBowlRubberPart.stl`) for multi-material printing. |
@@ -26,6 +27,7 @@ Each model is provided as one or more of the following: an editable Fusion sourc
 | Hex Nut | `.f3d`, `.stl`, `.3mf` | A compact hardware-style model with an inner bore and chamfered shape. |
 | Ice Cube Tray | `.f3d`, `.stl` | A larger tray-style model with repeated cavities. |
 | Light Bulb | `.f3d`, `.stl`, `.3mf` | A decorative incandescent-style light bulb with a rounded body and base. |
+| Ninja Star | `.f3d`, `.stl` | A stylized throwing-star model with sharp radial geometry. |
 | Outlet Cover | `.f3d`, `.stl` | A wall outlet faceplate with screw holes and a socket cutout. |
 | Saturn V Rocket | `.f3d`, `.stl`, `.3mf` | A rocket model available as a raw STL export and a 3MF project/export. |
 | Screw Driver | `.f3d`, `.stl`, `.3mf`, `.step` | A screwdriver model with a shaped handle and shaft, available in mesh, project, and CAD formats. |
@@ -48,12 +50,17 @@ These photos show printed examples matched to the model files in this repository
 | Glass Soda Bottle | <img src="docs/images/glass-soda-bottle-printed.png" alt="Printed black glass soda bottle" width="220"> | [`Glass Soda Bottle.f3d`](models/Glass%20Soda%20Bottle.f3d)<br>[`Glass Soda Bottle.stl`](models/Glass%20Soda%20Bottle.stl) | Tall black bottle with a round body, tapered shoulder, and small threaded opening. |
 | Hex Nut | <img src="docs/images/hex-nut-printed.png" alt="Printed black hex nut" width="220"> | [`Hex Nut.f3d`](models/Hex%20Nut.f3d)<br>[`Hex Nut.stl`](models/Hex%20Nut.stl)<br>[`Hex Nut.3mf`](models/Hex%20Nut.3mf) | Black six-sided nut with a circular threaded center hole. |
 | Ice Cube Tray | <img src="docs/images/ice-cube-tray-printed.png" alt="Printed blue ice cube tray" width="220"> | [`IceCubeTray.f3d`](models/IceCubeTray.f3d)<br>[`IceCubeTray.stl`](models/IceCubeTray.stl) | Blue tray with repeated square cavities in a long grid. |
+| Ninja Star | <img src="docs/images/ninja-star-printed.png" alt="Printed gray ninja star model" width="220"> | [`Ninja Star.f3d`](models/Ninja%20Star.f3d)<br>[`Ninja Star.stl`](models/Ninja%20Star.stl) | Gray eight-point star with a central circular opening, radial slots, and beveled arms. |
 | Saturn V Rocket | <img src="docs/images/saturn-v-rocket-printed.png" alt="Printed black Saturn V rocket" width="220"> | [`Saturn V Rocket.f3d`](models/Saturn%20V%20Rocket.f3d)<br>[`Saturn V Rocket.stl`](models/Saturn%20V%20Rocket.stl)<br>[`Saturn V Rocket.3mf`](models/Saturn%20V%20Rocket.3mf) | Tall black rocket with stacked cylindrical sections, fins, and a pointed top. |
 | SnowFlake | <img src="docs/images/snowflake-printed.png" alt="Printed white snowflake" width="220"> | [`SnowFlake.f3d`](models/SnowFlake.f3d)<br>[`SnowFlake.stl`](models/SnowFlake.stl)<br>[`SnowFlake.3mf`](models/SnowFlake.3mf) | White flat snowflake with six branching arms. |
 | Star | <img src="docs/images/star-printed.jpg" alt="Printed red star" width="220"> | [`Star.f3d`](models/Star.f3d)<br>[`Star.stl`](models/Star.stl) | Red flat five-point star with rounded points. |
 | USB Holder | <img src="docs/images/usb-holder-printed.png" alt="Printed black USB holders holding white USB cables" width="220"> | [`UsbHolder.f3d`](models/UsbHolder.f3d)<br>[`UsbHolder.stl`](models/UsbHolder.stl)<br>[`UsbHolderSmall.stl`](models/UsbHolderSmall.stl) | Black rounded holders sized to organize USB connectors. |
 
 Files are modeled in millimeters. Check dimensions in your slicer before printing.
+
+## Materials and BOM
+
+`BOM.csv` tracks the basic material estimate for the printed examples in this collection. It currently lists three PLA filament rolls at $20 each, for an estimated total of $60.
 
 ## File Formats
 
@@ -127,6 +134,7 @@ This snowflake features intricate geometric branches radiating from a central hu
 │       ├── glass-soda-bottle-printed.png
 │       ├── hex-nut-printed.png
 │       ├── ice-cube-tray-printed.png
+│       ├── ninja-star-printed.png
 │       ├── saturn-v-rocket-printed.png
 │       ├── snowflake-printed.png
 │       ├── star-printed.jpg
@@ -140,6 +148,7 @@ This snowflake features intricate geometric branches radiating from a central hu
 │   │   └── NonColored
 │   │       └── A330-300.stl
 │   ├── Airplane.f3d / .stl
+│   ├── Boomerang.f3d / .stl
 │   ├── Complex Glass Bottle.f3d / .stl
 │   ├── Day 3 PaperClip.f3d / .stl
 │   ├── DogBowl.f3d / .stl / .3mf
@@ -154,6 +163,7 @@ This snowflake features intricate geometric branches radiating from a central hu
 │   ├── Hex Nut.f3d / .stl / .3mf
 │   ├── IceCubeTray.f3d / .stl
 │   ├── LightBulb.f3d / .stl / .3mf
+│   ├── Ninja Star.f3d / .stl
 │   ├── OutletCover.f3d / .stl
 │   ├── Saturn V Rocket.f3d / .stl / .3mf
 │   ├── ScrewDriver.f3d / .stl / .3mf / .step
@@ -164,6 +174,7 @@ This snowflake features intricate geometric branches radiating from a central hu
 │   ├── UsbHolderSmall.stl
 │   ├── Vase.f3d / vase.stl
 │   └── VaseStyled.stl
+├── BOM.csv
 └── README.md
 ```
 
