@@ -1,10 +1,17 @@
 # 3D Fusion Models
 
-A collection of original 3D models designed in Autodesk Fusion and exported for viewing, slicing, and 3D printing. This repository is meant to be a simple portfolio and download library for practice models, printable objects, and CAD experiments.
+A collection of 24 original 3D models designed in Autodesk Fusion and exported for viewing, slicing, and 3D printing. The repository is a portfolio and download library for practice models, printable objects, and CAD experiments.
 
 Repository URL: <https://github.com/anaygoyal09/3D-Fusion-Models>
 
-Printables models: <https://www.printables.com/@AnayMakes_519118/models>
+Printables profile: <https://www.printables.com/@AnayMakes_519118/models>
+
+## Quick Start
+
+1. Browse the [model library](models) or use the catalog below.
+2. Download an `.stl` or `.3mf` file for printing, or an `.f3d`/`.step` file for editing.
+3. Import the file into your slicer, confirm that the units are millimeters, and check the orientation and scale.
+4. Preview supports and bed adhesion, then slice the model for your printer.
 
 ## What's Included
 
@@ -13,7 +20,7 @@ Each model is provided as one or more of the following: an editable Fusion sourc
 | Model | Files | Notes |
 | --- | --- | --- |
 | 2x4 Toy Block | `.f3d`, `.stl` | A toy brick-style block model with raised studs. |
-| A330-300 | `.f3d`, `.stl`, `.3mf` | A detailed Airbus A330-300 airliner model with swept wings, winglets, twin engines, tail surfaces, and both colored and non-colored exports. |
+| A330-300 | `.f3d`, `.stl`, `.3mf` | A detailed Airbus A330-300 airliner with colored and non-colored exports. Includes one-piece files and a non-colored split package with separate body, engine, and stabilizer parts. |
 | Airplane | `.f3d`, `.stl` | A simple airplane model with fuselage, wings, and tail. |
 | Boomerang | `.f3d`, `.stl` | A curved boomerang-style model with rounded arms and smooth profile geometry. |
 | Complex Glass Bottle | `.f3d`, `.stl` | A detailed bottle model with a wider body and complex shape. |
@@ -44,7 +51,7 @@ These photos show printed examples matched to the model files in this repository
 | Model | Photo | Files | Visual match |
 | --- | --- | --- | --- |
 | 2x4 Toy Block | <img src="docs/images/2x4-toy-block-printed.png" alt="Printed blue 2x4 toy block" width="220"> | [`2x4 Toy Block.f3d`](models/2x4%20Toy%20Block.f3d)<br>[`2x4 Toy Block.stl`](models/2x4%20Toy%20Block.stl) | Blue rectangular brick with two rows of raised studs. |
-| A330-300 | <img src="docs/images/a330-300-birdseye.png" alt="Printed black A330-300 model from above" width="220"><br><img src="docs/images/a330-300-front-top.jpeg" alt="Printed black A330-300 model viewed from the front top" width="220"><br><img src="docs/images/a330-300-nose-front.jpeg" alt="Printed black A330-300 model viewed from the nose" width="220"> | [`A330-300 Fusion File.f3d`](models/A330-300/A330-300%20Fusion%20File.f3d)<br>[`A330-300.stl`](models/A330-300/NonColored/A330-300.stl)<br>[`A330-300 Colored No Split.3mf`](models/A330-300/Colored/A330-300%20Colored%20No%20Split.3mf) | Black wide-body airliner with long swept wings, upturned winglets, twin under-wing engines, and detailed nose, fuselage, and tail surfaces. |
+| A330-300 | <img src="docs/images/a330-300-birdseye.png" alt="Printed black A330-300 model from above" width="220"><br><img src="docs/images/a330-300-front-top.jpeg" alt="Printed black A330-300 model viewed from the front top" width="220"><br><img src="docs/images/a330-300-nose-front.jpeg" alt="Printed black A330-300 model viewed from the nose" width="220"> | [`A330-300 Fusion File.f3d`](models/A330-300/A330-300%20Fusion%20File.f3d)<br>[`A330-300.stl`](models/A330-300/NonColored/A330-300.stl)<br>[`A330-300 Colored No Split.3mf`](models/A330-300/Colored/A330-300%20Colored%20No%20Split.3mf)<br>[`a330-300-no-color.3mf`](models/A330-300/NonColored%20Split/a330-300-no-color.3mf)<br>[Split STL parts](models/A330-300/NonColored%20Split) | Black wide-body airliner with long swept wings, upturned winglets, twin under-wing engines, and detailed nose, fuselage, and tail surfaces. |
 | Complex Glass Bottle | <img src="docs/images/complex-glass-bottle-printed.png" alt="Printed black complex glass bottle" width="220"> | [`Complex Glass Bottle.f3d`](models/Complex%20Glass%20Bottle.f3d)<br>[`Complex Glass Bottle.stl`](models/Complex%20Glass%20Bottle.stl) | Black bottle with a squared body, rounded edges, narrow neck, and threaded lip. |
 | Door Stop | <img src="docs/images/door-stop-printed.png" alt="Printed black door stop" width="220"> | [`DoorStop.f3d`](models/DoorStop.f3d)<br>[`DoorStop.stl`](models/DoorStop.stl)<br>[`DoorStop.step`](models/DoorStop.step) | Black wedge-shaped stop with ribbed sides and cutout geometry. |
 | Glass Soda Bottle | <img src="docs/images/glass-soda-bottle-printed.png" alt="Printed black glass soda bottle" width="220"> | [`Glass Soda Bottle.f3d`](models/Glass%20Soda%20Bottle.f3d)<br>[`Glass Soda Bottle.stl`](models/Glass%20Soda%20Bottle.stl) | Tall black bottle with a round body, tapered shoulder, and small threaded opening. |
@@ -85,7 +92,7 @@ You can preview the STL and 3MF files with common 3D viewers or slicers, includi
 ## Using the Files
 
 1. Download the model file you want from the repository.
-2. Open it in a slicer or 3D modeling tool (use the `.f3d` file in Fusion if you want to edit the design).
+2. Open it in a slicer or 3D modeling tool. Use the `.f3d` file in Fusion if you want to edit the original design.
 3. Check the scale before printing, especially if your slicer imports the model in a different unit system.
 4. Choose print settings based on the model shape and your printer.
 5. Slice and export the G-code for your machine.
@@ -145,8 +152,13 @@ This snowflake features intricate geometric branches radiating from a central hu
 │   │   ├── A330-300 Fusion File.f3d
 │   │   ├── Colored
 │   │   │   └── A330-300 Colored No Split.3mf
-│   │   └── NonColored
-│   │       └── A330-300.stl
+│   │   ├── NonColored
+│   │   │   └── A330-300.stl
+│   │   └── NonColored Split
+│   │       ├── a330-300-no-color.3mf
+│   │       ├── A330-300 Body Stl... (5 split body sections)
+│   │       ├── Engine Left.stl.stl / Engine Right.stl.stl
+│   │       └── Stabilizer Left.stl.stl / Stabilizer Right.stl.stl
 │   ├── Airplane.f3d / .stl
 │   ├── Boomerang.f3d / .stl
 │   ├── Complex Glass Bottle.f3d / .stl
