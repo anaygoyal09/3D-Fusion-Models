@@ -1,6 +1,6 @@
 # 3D Fusion Models
 
-A collection of 24 original 3D models designed in Autodesk Fusion and exported for viewing, slicing, and 3D printing. The repository is a portfolio and download library for practice models, printable objects, and CAD experiments.
+A collection of 25 original 3D models designed in Autodesk Fusion and exported for viewing, slicing, and 3D printing. The repository is a portfolio and download library for practice models, printable objects, and CAD experiments.
 
 Repository URL: <https://github.com/anaygoyal09/3D-Fusion-Models>
 
@@ -8,7 +8,7 @@ Printables profile: <https://www.printables.com/@AnayMakes_519118/models>
 
 ## Quick Start
 
-1. Browse the [model library](models) or use the catalog below.
+1. Browse the [model library](models), the multipart [Boeing 747-400](747-400), or use the catalog below.
 2. Download an `.stl` or `.3mf` file for printing, or an `.f3d`/`.step` file for editing.
 3. Import the file into your slicer, confirm that the units are millimeters, and check the orientation and scale.
 4. Preview supports and bed adhesion, then slice the model for your printer.
@@ -22,6 +22,7 @@ Each model is provided as one or more of the following: an editable Fusion sourc
 | 2x4 Toy Block | `.f3d`, `.stl` | A toy brick-style block model with raised studs. |
 | A330-300 | `.f3d`, `.stl`, `.3mf` | A detailed Airbus A330-300 airliner with colored and non-colored exports. Includes one-piece files and a non-colored split package with separate body, engine, and stabilizer parts. |
 | Airplane | `.f3d`, `.stl` | A simple airplane model with fuselage, wings, and tail. |
+| Boeing 747-400 | `.f3d`, `.stl` | A multipart Boeing 747-400 airliner with separate front, middle, and rear fuselage sections; left and right wings, horizontal stabilizers, and engines; a vertical stabilizer; alignment connectors; and a display stand. |
 | Boomerang | `.f3d`, `.stl` | A curved boomerang-style model with rounded arms and smooth profile geometry. |
 | Complex Glass Bottle | `.f3d`, `.stl` | A detailed bottle model with a wider body and complex shape. |
 | Day 3 PaperClip | `.f3d`, `.stl` | A thin paper clip model focused on curves and small profile geometry. |
@@ -103,6 +104,7 @@ You can preview the STL and 3MF files with common 3D viewers or slicers, includi
 - For thin models like the paper clip, star, or snowflake, check first-layer adhesion carefully.
 - For tall bottle and rocket models, use a brim or other bed-adhesion option if your printer struggles with narrow bases, and verify the imported height fits your build volume.
 - For multi-material models like the dog bowl, print the separate metal and rubber parts individually or use the multi-part `.3mf`.
+- For the Boeing 747-400, print the split STL components separately, use the two connector files to align the fuselage sections, and use the included stand for display.
 - For larger models like the ice cube tray, confirm the model fits your printer bed before slicing.
 - These files may need orientation, scaling, or mesh repair depending on the target printer and slicer.
 
@@ -130,6 +132,18 @@ This snowflake features intricate geometric branches radiating from a central hu
 
 ```text
 .
+├── 747-400
+│   ├── 747-400 AIRPLANE ITSELF COLORED.f3d
+│   ├── 747-400 Front.stl
+│   ├── 747-400 Middle Section.stl
+│   ├── Back.stl
+│   ├── 747-400 Wing Left.stl / 747-400 Right Wing.stl
+│   ├── 747-400 H Stabilizer Left.stl / 747-400 HStabilizer Right.stl
+│   ├── 747-400 Vertical Stabilizer.stl
+│   ├── Left Engine Inner.stl / Left Engine Outer.stl
+│   ├── Right Engine Inner.stl / Right Engine Outer.stl
+│   ├── 747-400 Connector.stl / 747-400 Connector 2 (Same).stl
+│   └── 747-400 Stand.stl
 ├── docs
 │   └── images
 │       ├── 2x4-toy-block-printed.png
